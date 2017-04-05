@@ -44,5 +44,12 @@ LL INF=std::numeric_limits<LL>::max();
 //FILE *fout = freopen("out","w",stdout);
 int main()
 {
+  pair<double,double> X,Y; 
+  cin>>X.F>>X.S;cin>>Y.F>>Y.S;
+  double major,minor;
+  cin>>major>>minor;
+  Geometry::Point XX(X.F,X.S);
+  Geometry::Point YY(Y.F,Y.S);
+  cout<<Geometry::BasicDistance(XX,YY,major)<<endl;
   return 0;
 }

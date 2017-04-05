@@ -20,6 +20,7 @@ namespace Geometry
  
   double Distance(const Point&X, const Point &Y,double Radius,double major,double minor)
   {
+    //source : https://www.ngs.noaa.gov/PUBS_LIB/inverse.pdf
     double f = (major - minor)/major;
     double  Dlong = Y.longitude - X.longitude,PDlong = -2*M_PI;
     const double eps=(1e-9);
