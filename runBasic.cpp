@@ -47,12 +47,10 @@ int main()
   //earth mean radius 6,371000 m;
   pair<double,double> X,Y; 
   cin>>X.F>>X.S;cin>>Y.F>>Y.S;
-  double major,minor;
-  //cin>>major>>minor;
-  //https://en.wikipedia.org/wiki/Earth_radius 
-  major = 6378137.0; minor = 6356752.3;
+  //https://en.wikipedia.org/wiki/Earth_radius  
+  double meanradius = 6371000.0;
   Geometry::Point XX(X.F,X.S);
    Geometry::Point YY(Y.F,Y.S);
-  cout<<Geometry::Distance(XX,YY,major,minor)<<endl;
+  cout<<Geometry::BasicDistance(XX,YY,meanradius)<<endl;
   return 0;
 }
