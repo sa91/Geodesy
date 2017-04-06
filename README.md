@@ -6,7 +6,7 @@ Test the library/code
  
   @ BasicDistance() ==> More testcase to be addded
   
-  @ Distance() ==> Debugging 
+  @ Distance() ==> More accurate testdata to check the accuracy. 
 
 write the makefile ==> Done
 
@@ -18,16 +18,23 @@ write the makefile ==> Done
 
 # Makefile
 
-make runBasic (to execute BasicDistance Fuction)
+make runBasic (to executable "runBasic" for running BasicDistance Fuction)
 
-make run  (to execute Distnace function[There's some bug in Distance code. I'm working on it]).
+make run (to executable "run" for running Distance Fuction)
 
-
-# Basic Testing ::
+# BasicDistance() Testing ::
 
 Test : TestBasic.in 
 
-Expected outcome : TestBasic.data 
+Expected outcome : TestBasic.data  (Data is collected from http://www.movable-type.co.uk/scripts/latlong.html (Uses the simple trignometric formula, considering earth to be sphere ));
 
 Output : TestBasic.out (Output in meters )
+
+# Distance() Testing ::
+
+Test : TestBasic.in 
+
+Expected outcome : TestBasic.data  (Data is collected from http://www.movable-type.co.uk/scripts/latlong.html (Uses the simple trignometric formula, considering earth to be sphere ));
+
+Output : TestDistance.out (Output in meters)
 
