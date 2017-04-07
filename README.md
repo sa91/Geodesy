@@ -1,6 +1,6 @@
-## ProficiencyTest
+# ProficiencyTest
 
-# Code:
+## Code:
  
    Header File : distance.hpp
   
@@ -11,7 +11,7 @@
    Test Distance() Function : run.cpp
 
 
-# Todo:
+## Todo:
 
 Test the library/code
  
@@ -23,19 +23,19 @@ Add more ways to instantiate point in class Point ==> Pending
 
 write the makefile ==> Done
 
-# Description of each Test 
+## Description of each Test 
 
  1st line : latitude,longitude of first point in degrees;
 
  2nd line : latitude,longitude of second point in degrees;
 
-# Makefile
+## Makefile
 
 make runBasic (to executable "runBasic" for running BasicDistance Fuction)
 
 make run (to executable "run" for running Distance Fuction)
 
-# BasicDistance() Testing ::
+## BasicDistance() Testing ::
 
 Test : TestBasic.in 
 
@@ -43,7 +43,7 @@ Expected outcome : TestBasic.data  (Data is collected from http://www.movable-ty
 
 Output : TestBasic.out (Output in meters )
 
-# Distance() Testing ::
+## Distance() Testing ::
 
 Test : TestBasic.in 
 
