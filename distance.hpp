@@ -1,4 +1,3 @@
-//Kyokai no Kanata //
 #ifndef DISTANCE_HPP
 #define  DISTANCE_HPP
 #include<cmath>

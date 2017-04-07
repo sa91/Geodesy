@@ -1,4 +1,3 @@
-//Kyokai no Kanata//
 #include<cmath>
 #include<string.h>
 #include<iostream>

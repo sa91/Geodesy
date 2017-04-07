@@ -1,12 +1,25 @@
-# ProficiencyTest
+## ProficiencyTest
 
-Todo:
+# Code:
+ 
+   Header File : distance.hpp
+  
+   Library Code File : distance.cpp
+
+   Test BasicDistance() Function : runBasic.cpp
+    
+   Test Distance() Function : run.cpp
+
+
+# Todo:
 
 Test the library/code
  
   @ BasicDistance() ==> More testcase to be addded
   
   @ Distance() ==> More accurate testdata to check the accuracy. 
+
+Add more ways to instantiate point in class Point ==> Pending
 
 write the makefile ==> Done
 

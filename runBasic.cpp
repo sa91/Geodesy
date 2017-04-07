@@ -1,4 +1,3 @@
-//Kyokai no Kanata //
 #include<bits/stdc++.h>
 #include "distance.hpp"
 using namespace std;

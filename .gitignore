@@ -2,3 +2,5 @@ run
 Distance.hpp.bak 
 Distance.hpp.gch
 tmp
+distance.o
+.gitignore
